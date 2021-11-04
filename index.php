@@ -7,7 +7,7 @@
 <body>
 	<div class="head">
 		<header>
-			<img class="logo" src="images/logo.svg"></img>
+			<img class="logo" src="images/logo.svg"/>
 			<nav>
 				<ul>
 					<li><a href="#benefit">Выгода</a></li>
@@ -19,6 +19,13 @@
 				</ul>
 			</nav>
 		</header>
+		<div class="factory">
+			<p>ПРОИЗВОДСТВО</p>
+			<p>И ПРОДВИЖЕНИЕ</p>
+			<p>КОФЕЙНЫХ АППАРАТОВ</p>
+			<p class="sub">Мы не просто любим кофе, мы вкладываем часть души!</p>
+			<a href="#">Связаться с нами</a>
+		</div>
 	</div>
 </body>
 </html>

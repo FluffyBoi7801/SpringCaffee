@@ -4,27 +4,39 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+	color: white;
 }
 
 body {
 	background-color: black;
 }
 
+.head {
+	height: 838px;
+	background: url(../images/coffeBeansBackground.png);
+	background-size: contain;
+}
+
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 38px 280px 0px 261px;
+	padding: 33px 188px 0px 187px;
+}
+
+.logo {
+	width: 217px;
+	height: 53px;
+	margin-right: 58px;
 }
 
 nav {
-	color: white;
 	width: 1126px;
 }
 
 nav ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 nav ul li {
@@ -34,17 +46,32 @@ nav ul li {
 nav a {
 	text-decoration: none;
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 	line-height: 19.5px;
 }
 
-.logo {
-	width: 217px;
-	height: 67px;
-	margin-right: 125px;
+.factory {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 145px 0px 0px 186px;
+	font-size: 48px;
+	line-height: 61px;
 }
 
-.head {
-	height: 1932px;
-	background: url(../images/coffeBeansBackground.png);
+.factory a {
+	background-color: #F2BC41;
+	color: black;
+	width: 267px;
+	height: 63px;
+	padding: 1px 54px;
+	border-radius: 16px 0px 16px 0px;
+	text-decoration: none;
+	margin: 44px 0px 44px 4px;
+	font-size: 12.3pt
+}
+
+.factory .sub {
+	font-size: 14pt;
+	line-height: 70px;
 }
