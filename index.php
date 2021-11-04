@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<div class="head">
+	<div id="head">
 		<header>
 			<img class="logo" src="images/logo.svg"/>
 			<nav>
@@ -25,6 +25,18 @@
 			<p>КОФЕЙНЫХ АППАРАТОВ</p>
 			<p class="sub">Мы не просто любим кофе, мы вкладываем часть души!</p>
 			<a href="#">Связаться с нами</a>
+		</div>
+	</div>
+	<div id="benefit">
+		<div class="header">
+			<p>ЧТО ТАКОЕ КОФЕЙНЯ</p>
+			<p class="sub">САМО-ОБСЛУЖИВАНИЯ?</p>
+		</div>
+		<div>
+			<div class="card">
+				<p>0 сотрудников</p>
+				<img src="images/stickers/1.png"/>
+			</div>
 		</div>
 	</div>
 </body>

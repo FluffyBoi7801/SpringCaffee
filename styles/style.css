@@ -7,11 +7,15 @@
 	color: white;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: black;
 }
 
-.head {
+#head {
 	height: 838px;
 	background: url(../images/coffeBeansBackground.png);
 	background-size: contain;
@@ -53,9 +57,8 @@ nav a {
 .factory {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	margin: 145px 0px 0px 186px;
-	font-size: 48px;
+	font-size: 36pt;
 	line-height: 61px;
 }
 
@@ -74,4 +77,45 @@ nav a {
 .factory .sub {
 	font-size: 14pt;
 	line-height: 70px;
+}
+
+#benefit {
+	height: 1310px;
+	background: #6430CD url(../images/coffeBeansBackgroundBlock.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	border-radius: 46px;
+	padding: 112px 1px 1px 189px
+}
+
+#benefit .header {
+	font-size: 36pt;
+}
+
+#benefit .sub {
+	color: #F2BC41;
+}
+
+.header {
+	margin-bottom: 44px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 320px;
+	height: 210px;
+	border: 1px solid white;
+	border-radius: 12px;
+	padding: 26px;
+	background: #6432CD;
+}
+
+.card p {
+	font-size: 16pt;
+}
+
+.card img {
+	width: 50px;
 }
