@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 38px 280px 0px 261px;
+}
+
+nav {
+	color: white;
+	width: 1126px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	line-height: 19.5px;
+}
+
+.logo {
+	width: 217px;
+	height: 67px;
+	margin-right: 125px;
+}
+
+.head {
+	height: 1932px;
+	background: url(../images/coffeBeansBackground.png);
+}
