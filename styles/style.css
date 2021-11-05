@@ -15,6 +15,24 @@ body {
 	background-color: black;
 }
 
+em {
+	font-style: normal;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #F2BC41;
+	color: black;
+	width: 267px;
+	height: 63px;
+	border-radius: 16px 0px 16px 0px;
+	text-decoration: none;
+	margin: 44px 0px 44px 4px;
+	font-size: 12.3pt
+}
+
 #head {
 	height: 838px;
 	background: url(../images/coffeBeansBackground.png);
@@ -62,18 +80,6 @@ nav a {
 	line-height: 61px;
 }
 
-.factory a {
-	background-color: #F2BC41;
-	color: black;
-	width: 267px;
-	height: 63px;
-	padding: 1px 54px;
-	border-radius: 16px 0px 16px 0px;
-	text-decoration: none;
-	margin: 44px 0px 44px 4px;
-	font-size: 12.3pt
-}
-
 .factory .sub {
 	font-size: 14pt;
 	line-height: 70px;
@@ -88,12 +94,8 @@ nav a {
 	padding: 112px 0px 0px 190px
 }
 
-#benefit .header {
+#benefit .header, #strategy .header {
 	font-size: 36pt;
-}
-
-#benefit .sub {
-	color: #F2BC41;
 }
 
 .header {
@@ -136,10 +138,55 @@ nav a {
 	margin-left: 43px;
 }
 
+#strategy {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 87px;
+}
+
+#strategy .header {
+	margin-bottom: 62px;
+	align-self: flex-start;
+	margin-left: 190px;
+}
+
+#strategy .card {
+	align-items: center;
+	width: 364px;
+	height: 386px;
+	margin-right: 22px;
+	text-align: center;
+}
+
+#strategy .card .sub {
+	font-size: 10pt;
+	line-height: 26px;
+}
+
+#strategy .card img {
+	width: 128px;
+}
+
+#strategy .card p {
+	font-size: 20pt;
+	margin-bottom: 20px;
+}
+
+.subtext {
+	color: #F2BC41;
+}
+
 .orange {
 	background: #F19035;
 }
 
 .green {
 	background: #439553;
+}
+
+.black {
+	background: #000000;
 }
