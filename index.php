@@ -138,8 +138,77 @@
 						<p>Вложение</p>
 					</div>
 				</div>
-				<input type="range" name="" value="34000" min="0" max="10000000">
+				<label for="calculate" class="calculate">
+					<p>0</p>
+					<p>10 000 000</p>
+				</label>
+				<input id="calculate" type="range" name="" value="34" min="0" max="10000" list="marks">
 				<a class="contact + white + flex-center" href="#">Связаться с нами</a>
+			</div>
+		</div>
+		<img class="bgImageBeans" src="images/beans.png">
+	</div>
+	<div id="garanty">
+		<div class="header">
+			<em>ДОВЕРИЕ И </em><em class="subtext">ГАРАНТИЯ</em>
+		</div>
+			<div class="cardsParent">
+				<div class="garantiesCards">
+				<div class="garantyCard">
+					<img src="images/icons/physics.svg">
+					<p>Собственное<br>производство<br>автоматов</p>
+				</div>
+				<div class="garantyCard">
+					<img src="images/icons/card.svg">
+					<p>Опытная команда</p>
+				</div>
+				<div class="garantyCard">
+					<img src="images/icons/globus.svg">
+					<p>Более 500<br>собственных точек</p>
+				</div>
+				<div class="garantyCard">
+					<img src="images/icons/textbook.svg">
+					<p>Опыт в обслуживании<br>вендинговых автоматов</p>
+				</div>
+				<div class="garantyCard">
+					<img src="images/icons/rating.svg">
+					<p>Лучшие поставщики</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="tariffs">
+		<div class="header">
+			<em>НАШЕ </em><em class="subtext">ОБОРУДОВАНИЕ</em>
+		</div>
+		<div class="cards + margin-4">
+			<div class="cardsParent">
+				<div class="machines">
+					<div class="machineCard">
+						<img src="images/coffeeMachiche.png"/>
+						<h1>Аппарат “Эконом”</h1>
+						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+							все остальное мы берем на себя, возможен вариант инвестирования</p>
+						<em>34 000</em><em> ₽</em>
+						<a class="contact + black" href="#">Купить</a>
+					</div>
+					<div class="machineCard">
+						<img src="images/coffeeMachiche.png"/>
+						<h1>Аппарат “Эконом”</h1>
+						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+							все остальное мы берем на себя, возможен вариант инвестирования</p>
+						<em>34 000</em><em> ₽</em>
+						<a class="contact + black" href="#">Купить</a>
+					</div>
+					<div class="machineCard">
+						<img src="images/coffeeMachiche.png"/>
+						<h1>Аппарат “Эконом”</h1>
+						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+							все остальное мы берем на себя, возможен вариант инвестирования</p>
+						<em>34 000</em><em> ₽</em>
+						<a class="contact + black" href="#">Купить</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
