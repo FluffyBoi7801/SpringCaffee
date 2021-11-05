@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>SpringCoffee</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
@@ -125,6 +126,22 @@
 			</div>
 		</div>
 		<img class="bgImage" src="images/circle.png">
+		<div class="calc">
+			<img src="images/icons/calculator.svg"/>
+			<div class="calcBody">
+				<div class="calcHeader">
+					<h1>Калькулятор<br>расчета<br>выгодности</h1>
+					<div class="profit">
+						<em>249 000</em><em> ₽</em>
+						<p>Прибыль</p>
+						<em class="investment">34 000</em><em class="investment"> ₽</em>
+						<p>Вложение</p>
+					</div>
+				</div>
+				<input type="range" name="" value="34000" min="0" max="10000000">
+				<a class="contact + white + flex-center" href="#">Связаться с нами</a>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
