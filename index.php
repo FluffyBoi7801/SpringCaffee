@@ -32,11 +32,42 @@
 			<p>ЧТО ТАКОЕ КОФЕЙНЯ</p>
 			<p class="sub">САМО-ОБСЛУЖИВАНИЯ?</p>
 		</div>
-		<div>
-			<div class="card">
-				<p>0 сотрудников</p>
-				<img src="images/stickers/1.png"/>
+		<div class="cards">
+			<div class="cardsField">
+				<div class="card">
+					<p>0 сотрудников</p>
+					<img src="images/stickers/1.png"/>
+				</div>
+				<div class="card">
+					<p>Недорогая аренда</p>
+					<img src="images/stickers/2.png"/>
+				</div>
+				<div class="card">
+					<p>Низкая<br>себестоимость</p>
+					<img src="images/stickers/3.png"/>
+				</div>
+				<div class="card">
+					<p>Никаких проблем<br>с сотрудниками</p>
+					<img src="images/stickers/4.png"/>
+				</div>
+				<div class="card">
+					<p>Пассивный доход</p>
+					<img src="images/stickers/5.png"/>
+				</div>
+				<div class="card + orange">
+					<p>До 200% в год</p>
+					<img src="images/stickers/6.png"/>
+				</div>
+				<div class="card">
+					<p>30 минут в день<br>на ведение бизнеса</p>
+					<img src="images/stickers/7.png"/>
+				</div>
+				<div class="card + green">
+					<p>Помощь<br>в оформлении<br>и ведении бизнеса</p>
+					<img src="images/stickers/8.png"/>
+				</div>
 			</div>
+			<img src="images/coffeeMachiche.png" class="coffemchn">
 		</div>
 	</div>
 </body>

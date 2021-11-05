@@ -85,7 +85,7 @@ nav a {
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 46px;
-	padding: 112px 1px 1px 189px
+	padding: 112px 0px 0px 190px
 }
 
 #benefit .header {
@@ -98,6 +98,17 @@ nav a {
 
 .header {
 	margin-bottom: 44px;
+}
+
+.cards {
+	display: flex;
+}
+
+.cardsField {
+	display: grid;
+	grid-template-columns: 49% 49%;
+	grid-template-rows: 22% 22% 22% 22%;
+	grid-gap: 18px;
 }
 
 .card {
@@ -118,4 +129,17 @@ nav a {
 
 .card img {
 	width: 50px;
+}
+
+.coffemchn {
+	width: 432px;
+	margin-left: 43px;
+}
+
+.orange {
+	background: #F19035;
+}
+
+.green {
+	background: #439553;
 }
