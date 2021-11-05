@@ -27,7 +27,7 @@
 			<a class="contact" href="#">Связаться с нами</a>
 		</div>
 	</div>
-	<div id="benefit">
+	<div id="machine">
 		<div class="header">
 			<p>ЧТО ТАКОЕ КОФЕЙНЯ</p>
 			<p class="subtext">САМО-ОБСЛУЖИВАНИЯ?</p>
@@ -70,12 +70,12 @@
 			<img src="images/coffeeMachiche.png" class="coffemchn">
 		</div>
 	</div>
-	<div id="strategy">
+	<div id="benefit">
 		<div class="header">
 			<p>ПОЧЕМУ РАБОТАТЬ</p>
 			<em>С НАМИ </em><em class="subtext">ВЫГОДНО?</em>
 		</div>
-		<div class="cards">
+		<div class="cards + short">
 			<div class="card">
 				<img src="images/icons/heart.png"/>
 				<p>Работа с нами</p>
@@ -98,9 +98,33 @@
 				которые мешают<br>развиваться</p>
 			</div>
 		</div>
-		<div>
+		<div class="margin-28">
 			<a class="contact" href="#">Связаться с нами</a>
 		</div>
+	</div>
+	<div id="strategy">
+		<div class="header">
+			<em>НАША </em><em class="subtext">СТРАТЕГИЯ</em>
+		</div>
+		<div class="cards + margin-64">
+			<div class="card + cardBigF + cardBig + white">
+				<img style="width: 58px;" class="icon" src="images/icons/first.svg"/>
+				<div class="text">
+					<h1 class="blackText">Покупка автоматов</h1>
+					<p class="blackText">Какой то текст, который должен тут быть. Какой то текст, который должен тут быть
+					Какой то текст, который должен тут бытьКакой то текст, который должен тут быть</p>
+				</div>
+			</div>
+			<img class="arrow" width="100px" src="images/icons/arrow.svg"/>
+			<div class="card + cardBigS + cardBig + transparent">
+				<img style="width: 58px;" class="icon" src="images/icons/second.svg"/>
+				<div class="text">
+					<h1>Развитие сети</h1>
+					<p>Какой то текст, который должен тут быть. Какой то текст, который должен тут быть. Какой то текст, который должен тут быть. Какой то текст, который должен тут быть</p>
+				</div>
+			</div>
+		</div>
+		<img class="bgImage" src="images/circle.png">
 	</div>
 </body>
 </html>
