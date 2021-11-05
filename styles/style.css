@@ -489,6 +489,33 @@ nav a {
 	margin-top: 22px;
 }
 
+#about .header {
+	margin-left: 192px;
+	margin-bottom: 36px;
+}
+
+.aboutContainer {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin: 0px 0px 0px 192px;
+	font-size: 14pt;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.subInfo {
+	margin-top: 40px;
+	text-align: justify;
+}
+
+.multLogos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 68px;
+}
+
 /*#qst1:checked ~ */
 
 .margin-28 {
