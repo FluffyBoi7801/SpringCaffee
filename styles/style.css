@@ -248,6 +248,29 @@ nav a {
 	scale: 0.5;
 }
 
+.bgImageBeansBottom {
+	position: absolute;
+	top: 5148px;
+	width: 100%;
+	z-index: -1;
+}
+
+.bgImageDecorations {
+	position: absolute;
+	top: 5988px;
+	height: 684px;
+	z-index: 0;
+	right: 0px;
+}
+
+.bgImageCoffee {
+	position: absolute;
+	top: 7164px;
+	height: 684px;
+	z-index: -1;
+	right: 0px;
+}
+
 .calc {
 	display: flex;
 	flex-direction: row;
@@ -353,7 +376,7 @@ nav a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 136px;
+	margin-bottom: 78px;
 }
 
 .machines {
@@ -369,14 +392,104 @@ nav a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
 	text-align: center;
 	border-radius: 12px;
 	background: orange;
+	height: 734px;
+	padding: 16px;
 }
 
 .machineCard img {
-	width: 100px;
+	width: 174px;
 }
+
+.cardContent {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	background-color: white;
+	margin: -16px;
+	height: 368px;
+	border-radius: 0px 0px 14px 14px;
+}
+
+.cardContent > * {
+	color: black;
+}
+
+.cardContent h1 {
+	margin-top: 32px;
+	font-size: 20pt;
+}
+
+.cardContent p {
+	margin: -14px 52px 0px 42px;
+	font-size: 11pt;
+}
+
+.cardContent em {
+	color: black;
+	font-size: 23pt;
+}
+
+.cardContent a {
+	margin: 0px 0px 20px 0px;
+	scale: 0.7;
+	width: 246px;
+}
+
+#faq {
+	width: 100%;
+	height: 1060px;
+	background: #6432CD;
+	border-radius: 38px;
+	padding-top: 102px;
+	margin-bottom: 150px;
+}
+
+#faq .header {
+	margin-bottom: 50px;
+}
+
+.questions {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.questions > div {
+	width: 1150px;
+	height: 710px;
+	position: relative;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.wrapper > div {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.wrapper > div > div {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.wrapper > div > p {
+	margin-top: 22px;
+}
+
+/*#qst1:checked ~ */
 
 .margin-28 {
 	margin-top: 28px
@@ -410,8 +523,16 @@ nav a {
 	color: black;
 }
 
+.whiteText {
+	color: white;
+}
+
 .orange {
 	background: #F19035;
+}
+
+.purple {
+	background: #6432CD;
 }
 
 .green {

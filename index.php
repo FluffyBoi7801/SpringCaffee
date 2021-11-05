@@ -185,31 +185,99 @@
 			<div class="cardsParent">
 				<div class="machines">
 					<div class="machineCard">
-						<img src="images/coffeeMachiche.png"/>
-						<h1>Аппарат “Эконом”</h1>
-						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+						<img src="images/coffeeMachiche__.png"/>
+						<div class="cardContent">
+							<h1>Аппарат “Эконом”</h1>
+							<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
 							все остальное мы берем на себя, возможен вариант инвестирования</p>
-						<em>34 000</em><em> ₽</em>
-						<a class="contact + black" href="#">Купить</a>
+							<div>
+								<em>34 000</em><em> ₽</em>
+							</div>
+							<a class="contact + black + whiteText" href="#">Купить</a>
+						</div>
 					</div>
-					<div class="machineCard">
-						<img src="images/coffeeMachiche.png"/>
-						<h1>Аппарат “Эконом”</h1>
-						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+					<div class="machineCard + orange">
+						<img src="images/coffeeMachiche__.png"/>
+						<div class="cardContent">
+							<h1>Аппарат “Стандарт”</h1>
+							<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
 							все остальное мы берем на себя, возможен вариант инвестирования</p>
-						<em>34 000</em><em> ₽</em>
-						<a class="contact + black" href="#">Купить</a>
+							<div>
+								<em>55 000</em><em> ₽</em>
+							</div>
+							<a class="contact + black + whiteText" href="#">Купить</a>
+						</div>
 					</div>
-					<div class="machineCard">
-						<img src="images/coffeeMachiche.png"/>
-						<h1>Аппарат “Эконом”</h1>
-						<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
+					<div class="machineCard + purple">
+						<img src="images/coffeeMachiche__.png"/>
+						<div class="cardContent">
+							<h1>Аппарат “Люкс”</h1>
+							<p>Максимально гибкий подход, вы берете на себя только те вопросы, которыми хотите заниматься, 
 							все остальное мы берем на себя, возможен вариант инвестирования</p>
-						<em>34 000</em><em> ₽</em>
-						<a class="contact + black" href="#">Купить</a>
+							<div>
+								<em>75 000</em><em> ₽</em>
+							</div>
+							<a class="contact + black + whiteText" href="#">Купить</a>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<img class="bgImageBeansBottom" src="images/beansBottom.png">
+	</div>
+	<div id="faq">
+		<div class="header">
+			<em>ВОПРОС </em><em class="subtext">ОТВЕТ</em>
+		</div>
+		<img class="bgImageDecorations" src="images/faqDecoratoins.png">
+		<div class="questions">
+			<div class="wrapper">
+				<hr>
+				<div>
+					<div>
+						<input type="checkbox" id="qst1">
+						<label for="qst1">Как оформить все нужные документы?</label>
+					</div>
+					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst2">
+					<label for="qst2">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst3">
+					<label for="qst3">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst4">
+					<label for="qst4">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst5">
+					<label for="qst5">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst6">
+					<label for="qst6">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+				<div>
+					<input type="checkbox" id="qst7">
+					<label for="qst7">Как оформить все нужные документы?</label>
+				</div>
+				<hr>
+			</div>
+		</div>
+	</div>
+	<div id="about">
+		<div class="header">
+			<em>О НАС</em>
+			<img class="bgImageCoffee" src="images/coffee.png">
 		</div>
 	</div>
 </body>
