@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>SpringCoffee</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<script type="text/javascript" src="js/calculator.js"></script>
 </head>
 <body>
 	<div id="head">
@@ -139,18 +138,19 @@
 				<div class="calcHeader">
 					<h1>Калькулятор<br>расчета<br>выгодности</h1>
 					<div class="profit">
-						<em>249 000</em><em> ₽</em>
+						<em id="prof">249 000</em><em> ₽</em>
 						<p>Прибыль</p>
-						<em class="investment">34 000</em><em class="investment"> ₽</em>
+						<em class="investment" id="invest">34 000</em><em class="investment"> ₽</em>
 						<p>Вложение</p>
 					</div>
 				</div>
 				<label for="calculate" class="calculate">
-					<p>0</p>
-					<p>10 000 000</p>
+					<p>0 ₽</p>
+					<p>10 000 000 ₽</p>
 				</label>
-				<div id="calculate"></div>
-				<a class="contact + white + flex-center" href="#">Связаться с нами</a>
+				<input id="calculate" type="range" value="34" style="--value:34;">
+				<p>Вложение</p>
+				<a class="contact + white + flex-center" href="#">Инвестировать</a>
 			</div>
 		</div>
 		<img class="bgImageBeans" src="images/beans.png">
@@ -321,5 +321,6 @@
 		<img class="bgImageBeansForm" src="images/beansForm.png">
 		<img class="bgImagePacketOfCoffee" src="images/packetOfCoffee.png">
 	</div>
+	<script type="text/javascript" src="js/calculator.js"></script>
 </body>
 </html>
