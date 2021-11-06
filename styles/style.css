@@ -98,9 +98,13 @@ nav a {
 	border-radius: 46px;
 }
 
+#machine .header {
+	margin-left: 30px;
+}
+
 .header {
 	/*margin-bottom: 44px;*/
-	margin-left: 184px;
+	/*margin-left: 184px;*/
 	align-self: flex-start;
 	font-size: 36pt;
 }
@@ -154,7 +158,7 @@ nav a {
 #benefit .header {
 	margin-bottom: 62px;
 	align-self: flex-start;
-	margin-left: 190px;
+	margin-left: 22px;
 }
 
 #benefit .card {
@@ -185,6 +189,15 @@ nav a {
 	align-items: flex-end;
 	margin-top: 88px;
 	margin-bottom: 136px;
+}
+
+.boxer {
+	align-self: center;
+	width: 1200px;
+}
+
+#strategy .header {
+	margin-left: 30px;
 }
 
 .cardBig {
@@ -271,6 +284,21 @@ nav a {
 	right: 0px;
 }
 
+.bgImageBeansForm {
+	position: absolute;
+	top: 7850px;
+	width: 100%;
+	z-index: -1;
+}
+
+.bgImagePacketOfCoffee {
+	position: absolute;
+	top: 8012px;
+	height: 609px;
+	z-index: 0;
+	right: 0px;
+}
+
 .calc {
 	display: flex;
 	flex-direction: row;
@@ -342,6 +370,10 @@ nav a {
 	margin-bottom: 136px;
 }
 
+#garanty .header {
+	margin-left: 22px;
+}
+
 .cardsParent {
 	width: 1200px;
 }
@@ -377,6 +409,10 @@ nav a {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 78px;
+}
+
+#tariffs .header {
+	margin-left: 22px;
 }
 
 .machines {
@@ -442,7 +478,8 @@ nav a {
 }
 
 #faq {
-	width: 100%;
+	display: flex;
+	flex-direction: column;
 	height: 1060px;
 	background: #6432CD;
 	border-radius: 38px;
@@ -452,6 +489,7 @@ nav a {
 
 #faq .header {
 	margin-bottom: 50px;
+	margin-left: 28px;
 }
 
 .questions {
@@ -489,6 +527,10 @@ nav a {
 	margin-top: 22px;
 }
 
+#about {
+	margin-bottom: 272px;
+}
+
 #about .header {
 	margin-left: 192px;
 	margin-bottom: 36px;
@@ -514,6 +556,60 @@ nav a {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 68px;
+}
+
+#ready {
+	display: flex;
+	justify-content: center;
+}
+
+#ready .header {
+	margin-left: 30px;
+}
+
+#ready .header > div {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 14px;
+}
+
+#ready .header > p {
+	font-size: 14pt;
+	line-height: 26px;
+}
+
+#ready .header div > img {
+	width: 50px;
+}
+
+#ready h1 {
+	font-size: 37pt;
+}
+
+#ready input[type="text"] {
+	height: 66px;
+	width: 366px;
+	margin-bottom: 10px;
+	border-radius: 18px;
+	border: none;
+	color: rgba(0, 0, 0, 0.6);
+	outline: 0;
+	padding: 25px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: 34px 0px 128px 28px;
+}
+
+form input[type=submit] {
+	margin: 0;
+	width: 366px;
+}
+
+.cleanButton {
+	border: none;
 }
 
 /*#qst1:checked ~ */

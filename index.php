@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>SpringCoffee</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script type="text/javascript" src="js/calculator.js"></script>
 </head>
 <body>
 	<div id="head">
@@ -29,9 +30,11 @@
 		</div>
 	</div>
 	<div id="machine">
-		<div class="header">
-			<p>ЧТО ТАКОЕ КОФЕЙНЯ</p>
-			<p class="subtext">САМО-ОБСЛУЖИВАНИЯ?</p>
+		<div class="boxer">
+			<div class="header">
+				<p>ЧТО ТАКОЕ КОФЕЙНЯ</p>
+				<p class="subtext">САМО-ОБСЛУЖИВАНИЯ?</p>
+			</div>
 		</div>
 		<div class="cards">
 			<div class="cardsField">
@@ -72,9 +75,11 @@
 		</div>
 	</div>
 	<div id="benefit">
-		<div class="header">
-			<p>ПОЧЕМУ РАБОТАТЬ</p>
-			<em>С НАМИ </em><em class="subtext">ВЫГОДНО?</em>
+		<div class="boxer">
+			<div class="header">
+				<p>ПОЧЕМУ РАБОТАТЬ</p>
+				<em>С НАМИ </em><em class="subtext">ВЫГОДНО?</em>
+			</div>
 		</div>
 		<div class="cards + short">
 			<div class="card">
@@ -104,8 +109,10 @@
 		</div>
 	</div>
 	<div id="strategy">
-		<div class="header">
-			<em>НАША </em><em class="subtext">СТРАТЕГИЯ</em>
+		<div class="boxer">
+			<div class="header">
+				<em>НАША </em><em class="subtext">СТРАТЕГИЯ</em>
+			</div>	
 		</div>
 		<div class="cards + margin-64">
 			<div class="card + cardBigF + cardBig + white">
@@ -142,17 +149,17 @@
 					<p>0</p>
 					<p>10 000 000</p>
 				</label>
-				<input id="calculate" type="range" name="" value="34" min="0" max="10000" list="marks">
+				<div id="calculate"></div>
 				<a class="contact + white + flex-center" href="#">Связаться с нами</a>
 			</div>
 		</div>
 		<img class="bgImageBeans" src="images/beans.png">
 	</div>
 	<div id="garanty">
-		<div class="header">
-			<em>ДОВЕРИЕ И </em><em class="subtext">ГАРАНТИЯ</em>
-		</div>
 			<div class="cardsParent">
+				<div class="header">
+					<em>ДОВЕРИЕ И </em><em class="subtext">ГАРАНТИЯ</em>
+				</div>
 				<div class="garantiesCards">
 				<div class="garantyCard">
 					<img src="images/icons/physics.svg">
@@ -178,11 +185,11 @@
 		</div>
 	</div>
 	<div id="tariffs">
-		<div class="header">
-			<em>НАШЕ </em><em class="subtext">ОБОРУДОВАНИЕ</em>
-		</div>
 		<div class="cards + margin-4">
 			<div class="cardsParent">
+				<div class="header">
+					<em>НАШЕ </em><em class="subtext">ОБОРУДОВАНИЕ</em>
+				</div>
 				<div class="machines">
 					<div class="machineCard">
 						<img src="images/coffeeMachiche__.png"/>
@@ -226,8 +233,10 @@
 		<img class="bgImageBeansBottom" src="images/beansBottom.png">
 	</div>
 	<div id="faq">
-		<div class="header">
-			<em>ВОПРОС </em><em class="subtext">ОТВЕТ</em>
+		<div class="boxer">
+			<div class="header">
+				<em>ВОПРОС </em><em class="subtext">ОТВЕТ</em>
+			</div>
 		</div>
 		<img class="bgImageDecorations" src="images/faqDecoratoins.png">
 		<div class="questions">
@@ -293,6 +302,24 @@
 				<img src="images/logoBottom.png">
 			</div>
 		</div>
+	</div>
+	<div id="ready">
+		<div class="boxer">
+			<div class="header">
+				<div>
+					<h1>Готовы начать<br>сотрудничество?</h1>
+					<img src="images/stickers/smile.png"/>
+				</div>
+				<p>Оставьте свой номер телефона и в ближайшее<br>время мы вам перезвоним</p>
+			</div>
+			<form method="post" action="request.php">
+				<input type="text" name="name" placeholder="Ваше имя">
+				<input type="text" name="phone" placeholder="Ваш телефон">
+				<input class="contact + cleanButton" type="submit" value="Отправить">
+			</form>
+		</div>
+		<img class="bgImageBeansForm" src="images/beansForm.png">
+		<img class="bgImagePacketOfCoffee" src="images/packetOfCoffee.png">
 	</div>
 </body>
 </html>
