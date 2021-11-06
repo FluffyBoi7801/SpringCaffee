@@ -35,9 +35,22 @@ em {
 
 #head {
 	height: 838px;
-	background: url(../images/coffeBeansBackground.png);
-	background-size: contain;
-	background-repeat: no-repeat;
+}
+
+.bgImageBeansHead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.bgImageHand {
+	position: absolute;
+	top: 68px;
+	right: 0;
+	width: 954px;
+	z-index: -1;
 }
 
 header {

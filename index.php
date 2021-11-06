@@ -7,6 +7,7 @@
 </head>
 <body>
 	<div id="head">
+		<img class="bgImageBeansHead" src="images/coffeBeansBackground.png">
 		<header>
 			<img class="logo" src="images/logo.svg"/>
 			<nav>
@@ -27,6 +28,7 @@
 			<p class="sub">Мы не просто любим кофе, мы вкладываем часть души!</p>
 			<a class="contact" href="#">Связаться с нами</a>
 		</div>
+		<img class="bgImageHand" src="images/hand.png">
 	</div>
 	<div id="machine">
 		<div class="boxer">
