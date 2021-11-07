@@ -1,12 +1,12 @@
 var range = document.querySelector('#calculate');
 
-var qsts = [document.querySelector('#qst1'),
-            document.querySelector('#qst2'),
-            document.querySelector('#qst3'),
-            document.querySelector('#qst4'),
-            document.querySelector('#qst5'),
-            document.querySelector('#qst6'),
-            document.querySelector('#qst7')];
+var qsts = [document.querySelector('.qst1'),
+            document.querySelector('.qst2'),
+            document.querySelector('.qst3'),
+            document.querySelector('.qst4'),
+            document.querySelector('.qst5'),
+            document.querySelector('.qst6'),
+            document.querySelector('.qst7')];
 
 var qstBlocks = [document.querySelector('#qstBlock1'),
                  document.querySelector('#qstBlock2'),
