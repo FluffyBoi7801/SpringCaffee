@@ -7,6 +7,23 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+	<div class="contactWithUsMob">
+		<div>
+			<div>
+				<img src="images/icons/closeBlack.svg" onclick="mobileContactClose()">
+			</div>
+		</div>
+			<img src="images/icons/communication.svg">
+			<p>
+				Оставьте свой телефон и мы перезвоним
+			</p>
+			<form method="post" action="request.php">
+				<input type="text" name="name" placeholder="Ваше имя">
+				<input type="text" name="phone" placeholder="Ваш телефон">
+				<input class="contact + cleanButton" type="submit" value="Отправить">
+			</form>
+	</div>
+<!-- 	Main START    -->
 	<div class="mobileMenu">
 		<div>
 			<img class="logo" src="images/logo.svg"/>
@@ -47,7 +64,7 @@
 			<p>КОФЕЙНЫХ</p>
 			<p>АППАРАТОВ</p>
 			<p class="sub">Мы не просто любим кофе, мы вкладываем часть души!</p>
-			<a class="contact" href="#">Связаться с нами</a>
+			<div class="contact" onclick="mobileContactOpen()">Связаться с нами</div>
 		</div>
 		<img class="bgImageHand" src="images/hand.png">
 	</div>
@@ -127,7 +144,7 @@
 			</div>
 		</div>
 		<div class="margin-28">
-			<a class="contact" href="#">Связаться с нами</a>
+			<div class="contact" onclick="mobileContactOpen()">Связаться с нами</div>
 		</div>
 	</div>
 	<div id="strategy">
@@ -179,7 +196,7 @@
 					</div>
 				</div>
 				<p>Вложение</p>
-				<a class="contact + white + flex-center" href="#">Инвестировать</a>
+				<div class="contact + white + flex-center" onclick="mobileContactOpen()">Инвестировать</div>
 			</div>
 		</div>
 		<img class="bgImageBeans" src="images/beans.png">
@@ -229,7 +246,7 @@
 							<div>
 								<em>34 000</em><em> ₽</em>
 							</div>
-							<a class="contact + black + whiteText" href="#">Купить</a>
+							<div class="contact + black + whiteText" onclick="mobileContactOpen()">Купить</div>
 						</div>
 					</div>
 					<div class="machineCard + orange">
@@ -241,7 +258,7 @@
 							<div>
 								<em>55 000</em><em> ₽</em>
 							</div>
-							<a class="contact + black + whiteText" href="#">Купить</a>
+							<div class="contact + black + whiteText" onclick="mobileContactOpen()">Купить</div>
 						</div>
 					</div>
 					<div class="machineCard + purple">
@@ -253,7 +270,7 @@
 							<div>
 								<em>75 000</em><em> ₽</em>
 							</div>
-							<a class="contact + black + whiteText" href="#">Купить</a>
+							<div class="contact + black + whiteText" onclick="mobileContactOpen()">Купить</div>
 						</div>
 					</div>
 				</div>
@@ -370,6 +387,6 @@
 		<img class="bgImageBeansForm" src="images/beansForm.png">
 		<img class="bgImagePacketOfCoffee" src="images/packetOfCoffee.png">
 	</div>
-	<script type="text/javascript" src="js/calculator.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

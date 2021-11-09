@@ -1,5 +1,6 @@
 var range = document.querySelector('#calculate');
 var mobile = document.querySelector('.mobileMenu');
+var contact = document.querySelector('.contactWithUsMob');
 
 var qsts = [document.querySelector('.qst1'),
             document.querySelector('.qst2'),
@@ -19,10 +20,22 @@ var qstBlocks = [document.querySelector('.qstBlock1'),
 
 function mobileMenuOpen() {
     mobile.classList.add("showMenuMobile");
+    // console.log("Opened");
 }
 
 function mobileMenuClose() {
     mobile.classList.remove("showMenuMobile");
+    // console.log("Closed");
+}
+
+function mobileContactOpen() {
+    contact.classList.add("showContact");
+    // console.log("Opened");
+}
+
+function mobileContactClose() {
+    contact.classList.remove("showContact");
+    // console.log("Closed");
 }
 
 function change(value){
