@@ -1,4 +1,5 @@
 var range = document.querySelector('#calculate');
+var mobile = document.querySelector('.mobileMenu');
 
 var qsts = [document.querySelector('.qst1'),
             document.querySelector('.qst2'),
@@ -15,6 +16,14 @@ var qstBlocks = [document.querySelector('.qstBlock1'),
                  document.querySelector('.qstBlock5'),
                  document.querySelector('.qstBlock6'),
                  document.querySelector('.qstBlock7')];
+
+function mobileMenuOpen() {
+    mobile.classList.add("showMenuMobile");
+}
+
+function mobileMenuClose() {
+    mobile.classList.remove("showMenuMobile");
+}
 
 function change(value){
     document.getElementById("invest").innerHTML=value+" 000";

@@ -7,6 +7,22 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
+	<div class="mobileMenu">
+		<div>
+			<img class="logo" src="images/logo.svg"/>
+			<div class="mobileNav" onclick="mobileMenuClose()">
+				<img src="images/icons/close.svg">
+			</div>
+		</div>
+		<div class="mobList">
+			<a href="#benefit" onclick="mobileMenuClose()">Выгода</a>
+			<a href="#strategy" onclick="mobileMenuClose()">Стратегия</a>
+			<a href="#garanty" onclick="mobileMenuClose()">Гарантия</a>
+			<a href="#tariffs" onclick="mobileMenuClose()">Тарифы</a>
+			<a href="#faq" onclick="mobileMenuClose()">FAQ</a>
+			<a href="#about" onclick="mobileMenuClose()">О нас</a>
+		</div>
+	</div>
 	<div id="head">
 		<img class="bgImageBeansHead" src="images/coffeBeansBackground.png">
 		<header>
@@ -21,6 +37,9 @@
 					<li><a href="#about">О нас</a></li>
 				</ul>
 			</nav>
+			<div class="mobileNav" onclick="mobileMenuOpen()">
+				<img src="images/icons/mobileMenu.svg">
+			</div>
 		</header>
 		<div class="factory">
 			<p>ПРОИЗВОДСТВО</p>
@@ -312,26 +331,28 @@
 		</div>
 	</div>
 	<div id="about">
-		<div class="header">
-			<em>О НАС</em>
-		</div>
-		<div class="aboutContainer">
-			<p>
+		<img class="bgImageCoffee" src="images/coffee.png">
+		<div>
+			<div class="header">
+				<em>О НАС</em>
+			</div>
+			<div class="aboutContainer">
+				<p>
 				Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый 
 				к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.
-			</p>
-			<p class="subInfo">
+				</p>
+				<p class="subInfo">
 				Высота торгового автомата 1,5 метра. Антивандальный корпус выполнен из прочной 1,5 мм стали с антикоррозийной обработкой, взломать такой аппарат гораздо сложнее, чем ряд его менее защищенных.
-			</p>
-			<div class="multLogos">
-				<img src="images/logoBottom.png">
-				<img src="images/logoBottom.png">
-				<img src="images/logoBottom.png">
+				</p>
+				<div class="multLogos">
+					<img src="images/logoBottom.png">
+					<img src="images/logoBottom.png">
+					<img src="images/logoBottom.png">
+				</div>
 			</div>
 		</div>
 	</div>
 	<div id="ready">
-		<img class="bgImageCoffee" src="images/coffee.png">
 		<div class="boxer">
 			<div class="header">
 				<div>
