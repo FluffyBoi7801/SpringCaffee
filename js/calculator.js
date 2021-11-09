@@ -8,13 +8,13 @@ var qsts = [document.querySelector('.qst1'),
             document.querySelector('.qst6'),
             document.querySelector('.qst7')];
 
-var qstBlocks = [document.querySelector('#qstBlock1'),
-                 document.querySelector('#qstBlock2'),
-                 document.querySelector('#qstBlock3'),
-                 document.querySelector('#qstBlock4'),
-                 document.querySelector('#qstBlock5'),
-                 document.querySelector('#qstBlock6'),
-                 document.querySelector('#qstBlock7')];
+var qstBlocks = [document.querySelector('.qstBlock1'),
+                 document.querySelector('.qstBlock2'),
+                 document.querySelector('.qstBlock3'),
+                 document.querySelector('.qstBlock4'),
+                 document.querySelector('.qstBlock5'),
+                 document.querySelector('.qstBlock6'),
+                 document.querySelector('.qstBlock7')];
 
 function change(value){
     document.getElementById("invest").innerHTML=value+" 000";

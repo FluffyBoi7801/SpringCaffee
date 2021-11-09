@@ -34,10 +34,20 @@ em {
 }
 
 #head {
-	height: 838px;
+	height: 806px;
 }
 
 .bgImageBeansHead {
+/*	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	background: url(../images/coffeBeansBackground.png);
+	height: 900px;
+	background-size: contain;*/
+	
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -47,9 +57,9 @@ em {
 
 .bgImageHand {
 	position: absolute;
-	top: 68px;
-	right: 0;
-	width: 954px;
+	top: 116px;
+	right: 222px;
+	width: 724px;
 	z-index: -1;
 }
 
@@ -57,7 +67,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 33px 188px 0px 187px;
+	margin: 33px 188px 0px 3%;
 }
 
 .logo {
@@ -89,7 +99,7 @@ nav a {
 .factory {
 	display: flex;
 	flex-direction: column;
-	margin: 145px 0px 0px 186px;
+	margin: 145px 0px 0px 3%;
 	font-size: 36pt;
 	line-height: 61px;
 }
@@ -206,7 +216,7 @@ nav a {
 
 .boxer {
 	align-self: center;
-	width: 1200px;
+	min-width: 1200px;
 }
 
 #strategy .header {
@@ -267,11 +277,10 @@ nav a {
 
 .bgImageBeans {
 	position: absolute;
-	top: 3740px;
-	right: -260px;
-	height: 920px;
-	z-index: -1;
-	scale: 0.5;
+    top: 3970px;
+    right: 8px;
+    height: 460px;
+    z-index: -1;
 }
 
 .bgImageBeansBottom {
@@ -350,7 +359,6 @@ input[type="range"]#calculate::-webkit-slider-thumb
 
 input[type=range]#calculate::-webkit-slider-runnable-track {
   height: 5px;
-
 }
 
 .calc {
@@ -715,13 +723,13 @@ form input[type=submit] {
 	padding: 8px;
 }
 
-#qstBlock1 > div img, 
-#qstBlock2 > div img, 
-#qstBlock3 > div img, 
-#qstBlock4 > div img, 
-#qstBlock5 > div img, 
-#qstBlock6 > div img, 
-#qstBlock7 > div img {
+.qstBlock1 > div img, 
+.qstBlock2 > div img, 
+.qstBlock3 > div img, 
+.qstBlock4 > div img, 
+.qstBlock5 > div img, 
+.qstBlock6 > div img, 
+.qstBlock7 > div img {
 	transition: 0.5s;
 }
 
@@ -738,6 +746,366 @@ form input[type=submit] {
 .show img {
 	transform: rotateZ(45deg);
 	background: #F2BC41;
+}
+
+@media screen and (max-width: 1199px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 33px 188px 0px 30px;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	.header {
+		font-size: 24pt;
+	}
+
+	#head {
+		height: 1100px;
+	}
+
+	.factory {
+		display: flex;
+		flex-direction: column;
+		margin: 70px 0px 0px 30px;
+		font-size: 24pt;
+		line-height: 54px;
+	}
+
+	.factory .sub {
+		font-size: 13pt;
+		line-height: 30px;
+		margin-top: 14px;
+		padding-right: 70px;
+	}
+
+	.bgImageHand {
+		position: absolute;
+		top: 604px;
+		left: -200px;
+		width: 536px;
+		z-index: -1;
+	}
+
+	#machine {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    height: 2790px;
+	    background: #6430CD url(../images/coffeBeansBackgroundBlock.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    border-radius: 8px;
+	    padding-top: 60px;
+	}
+
+	.boxer {
+		align-self: center;
+		min-width: 0px;
+		padding: 10px;
+	}
+
+	.cards {
+		display: flex;
+		margin-top: 44px;
+		flex-direction: column;
+		align-items: center;
+		width: 0px;
+	}
+
+	.cardsField {
+		display: flex;
+		flex-direction: column;
+		flex-flow: wrap;
+		grid-gap: 14px;
+	}
+
+	.coffemchn {
+    	max-width: 300px;
+    	margin-right: 70px;
+    	margin-top: 70px;
+	}
+
+	#benefit > .boxer {
+		padding-right: 146px;
+	}
+
+	#benefit > .cards {
+		grid-gap: 26px;
+		flex-direction: column-reverse;
+	}
+
+	#benefit .card {
+		width: 330px;
+		height: 380px;
+		margin-right: 0px;
+	}
+
+	#benefit .contact {
+		margin-top: 0;
+	}
+
+	#strategy .cards {
+		width: auto;
+		grid-gap: 30px;
+	}
+
+	#strategy .header {
+		margin-left: 0px;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+	.cardBig {
+		flex-direction: column;
+	}
+
+	.cardBigF {
+		width: 336px;
+		height: 450px;
+		padding: 22px;
+		border-radius: 44px 1px 1px 44px;
+	}
+
+	.cardBigS {
+		width: 336px;
+		height: 450px;
+		padding: 22px;
+		border-radius: 44px 1px 1px 44px;
+	}
+
+	.text p {
+		font-size: 12pt;
+		line-height: 35px;
+	}
+
+	.text h1 {
+		margin-top: 20px;
+	}
+
+	.text {
+		flex: auto;
+	}
+
+	.calc {
+		flex-direction: column;
+		width: 100%;
+		padding: 0;
+		padding-top: 52px;
+		border-radius: 10px;
+		height: 850px;
+	}
+
+	.calcBody {
+		min-width: auto;
+	}
+
+	.calcHeader {
+		flex-direction: column;
+		grid-gap: 48px;
+	}
+
+	.calcHeader h1 {
+		font-size: 28pt;
+		line-height: 58px;
+	}
+
+	.profit {
+		font-size: 28pt;
+	}
+
+	.forHide {
+		display: none;
+	}
+
+	#invest {
+		display: none;
+	}
+
+	.investment {
+		display: none;
+	}
+
+	.sliderEnd {
+		left: 98%;
+	}
+
+	.calcBody > a {
+		margin-right: 0px;
+	}
+
+	.cardsParent {
+		width: auto;
+	}
+
+	.garantiesCards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-left: 0px;
+	}
+
+	.garantyCard {
+		height: 317px;
+		width: 345px;
+	}
+
+	.garantyCard img {
+		width: 128px;
+	}
+
+	.garantyCard p {
+		font-size: 18pt;
+	}
+
+	#tariffs .cardsParent {
+		max-width: 400px;
+	}
+
+	#tariffs .header {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		margin-left: 0px;
+	}
+
+	#tariffs .machines {
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+	}
+
+	#tariffs .machineCard {
+		height: 770px;
+	}
+
+	#faq {
+		height: 1200px;
+	}
+
+	#faq .header {
+		margin-left: 0px;
+	}
+
+/*	FAQ height settings START  */
+
+	.qstBlock1, 
+	.qstBlock2, 
+	.qstBlock3, 
+	.qstBlock5, 
+	.qstBlock6, 
+	.qstBlock7 {
+	min-height: 75px;
+	}
+
+	.qstBlock4  {
+		min-height: 89px;
+	} 
+
+/*	FAQ height settings END  */
+
+	.wrapper > div > div {
+		align-items: center;
+		padding: 10px;
+	}
+
+	.wrapper > div > p {
+		margin-top: 0px;
+		padding: 10px;
+		line-height: 24px;
+	}
+
+	.wrapper h1 {
+		font-size: 16pt;
+	}
+
+	.show {
+		min-height: 50%;
+	}
+
+	.bgImageDecorations {
+		display: none;
+	}
+
+	.bgImageBeansForm {
+		display: none;
+	}
+
+	#about {
+		padding: 10px;
+		margin-bottom: 100px;
+	}
+
+	#about .header {
+		margin-left: 0px;
+	}
+
+	.aboutContainer {
+		width: auto;
+		text-align: left;
+		margin: 0;
+	}
+
+	.subInfo {
+		text-align: left;
+	}
+
+	.multLogos {
+		grid-gap: 20px;
+	}
+
+	.multLogos > img {
+		width: 90px;
+	}
+
+	#ready {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#ready .header {
+		margin-bottom: 30px;
+		margin-left: 0px;
+	}
+
+	#ready h1 {
+		font-size: 22pt;
+	}
+
+	#ready p {
+		font-size: 15pt;
+		line-height: 24px;
+	}
+
+	#ready .header div > img {
+		width: 35px;
+	}
+
+	form {
+		margin: 0px;
+	}
+
+	#ready input[type="text"] {
+		width: auto;
+	}
+
+	#ready input[type="submit"] {
+		width: auto;
+	}
+
+	.bgImagePacketOfCoffee {
+		position: inherit;
+		margin-top: 30px;
+		height: 300px;
+		width: 375px;
+	}
 }
 
 .margin-28 {

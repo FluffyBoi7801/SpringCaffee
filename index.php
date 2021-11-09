@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<title>SpringCoffee</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -24,7 +25,8 @@
 		<div class="factory">
 			<p>ПРОИЗВОДСТВО</p>
 			<p>И ПРОДВИЖЕНИЕ</p>
-			<p>КОФЕЙНЫХ АППАРАТОВ</p>
+			<p>КОФЕЙНЫХ</p>
+			<p>АППАРАТОВ</p>
 			<p class="sub">Мы не просто любим кофе, мы вкладываем часть души!</p>
 			<a class="contact" href="#">Связаться с нами</a>
 		</div>
@@ -143,7 +145,7 @@
 						<em id="prof">249 000</em><em> ₽</em>
 						<p>Прибыль</p>
 						<em class="investment" id="invest">34 000</em><em class="investment"> ₽</em>
-						<p>Вложение</p>
+						<p class="forHide">Вложение</p>
 					</div>
 				</div>
 				<div class="inputBody">
@@ -250,7 +252,7 @@
 		<div class="questions">
 			<div class="wrapper">
 				<hr>
-				<div class="hidden" id="qstBlock1">
+				<div id="qstBlk1" class="qstBlock1 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst1"/>
 						<h1>Как оформить все нужные документы?</h1>
@@ -258,7 +260,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock2">
+				<div id="qstBlk2" class="qstBlock2 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst2"/>
 						<h1>Где искать подходящее помещение?</h1>
@@ -266,7 +268,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock3">
+				<div id="qstBlk3" class="qstBlock3 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst3"/>
 						<h1>Какой апарат выбрать для старта?</h1>
@@ -274,7 +276,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock4">
+				<div id="qstBlk4" class="qstBlock4 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst4"/>
 						<h1>Обслуживание и гарантии на наши кофейные апараты.</h1>
@@ -282,7 +284,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock5">
+				<div id="qstBlk5" class="qstBlock5 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst5"/>
 						<h1>Какой кофе мы предоставляем.</h1>
@@ -290,7 +292,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock6">
+				<div id="qstBlk6" class="qstBlock6 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst6"/>
 						<h1>Какой кофе мы предоставляем.</h1>
@@ -298,7 +300,7 @@
 					<p>Спрос на кофе в России растёт с каждым годом, данный автомат позволит получать пассивный доход. Доставим по вашему адресу полностью проверенный и готовый к работе вендинговый кофейный автомат Jofemar G250. Данный автомат хорошо зарекомендовал себя в работе, и является одним из самых популярных среди кофейных автоматов.</p>
 				</div>
 				<hr>
-				<div class="hidden" id="qstBlock7">
+				<div id="qstBlk7" class="qstBlock7 hidden">
 					<div>
 						<img src="images/icons/add.svg" class="qst7"/>
 						<h1>Еще какой то вопрос?</h1>
@@ -312,7 +314,6 @@
 	<div id="about">
 		<div class="header">
 			<em>О НАС</em>
-			<img class="bgImageCoffee" src="images/coffee.png">
 		</div>
 		<div class="aboutContainer">
 			<p>
@@ -330,6 +331,7 @@
 		</div>
 	</div>
 	<div id="ready">
+		<img class="bgImageCoffee" src="images/coffee.png">
 		<div class="boxer">
 			<div class="header">
 				<div>
