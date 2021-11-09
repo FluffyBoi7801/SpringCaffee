@@ -1315,6 +1315,11 @@ form {
 	.cardContent > .contact {
 		margin: 0;
 	}
+
+	.bgImage {
+		top: 6430px;
+		height: 600px;
+	}
 }
 
 .margin-28 {
