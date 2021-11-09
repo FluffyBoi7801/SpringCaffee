@@ -29,7 +29,7 @@ em {
 		background: #FFFFFF;
 		position: fixed;
 		top: -500px;
-		left: 24%;
+		margin-left: 24%;
 		width: 800px;
 		height: 500px;
 		transition: 1s;
@@ -70,7 +70,7 @@ em {
 }
 
 .contactWithUsMob form input[type="submit"] {
-	width: 340px;
+	width: inherit;
 	margin: 0;
 }
 
@@ -433,11 +433,6 @@ input[type=range]#calculate::-webkit-slider-runnable-track {
 	background: orange;
 }
 
-.calc > img {
-	width: 90px;
-	align-self: flex-start;
-}
-
 .calc input {
 	height: 5px;
 	background: #F2BC42;
@@ -449,6 +444,17 @@ input[type=range]#calculate::-webkit-slider-runnable-track {
 	display: flex;
 	flex-direction: column;
 	min-width: 940px;
+}
+
+.calcBody > .contact {
+	margin: 0;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+
+.calcBody > img {
+	width: 90px;
+	align-self: flex-start;
 }
 
 .calcBody > p {
@@ -759,7 +765,7 @@ form {
 	margin: 34px 0px 128px 28px;
 }
 
-form input[type=submit] {
+.boxer form input[type=submit] {
 	margin: 0;
 	width: 366px;
 }
@@ -890,6 +896,8 @@ form input[type=submit] {
 		transition: 1s;
 		align-items: center;
 		padding: 4%;
+		border-radius: 0px;
+		margin: 0;
 	}
 
 	.showContact {
@@ -917,18 +925,13 @@ form input[type=submit] {
 		grid-gap: 10px;
 	}
 
-	.contactWithUsMob > form > input[type="text"] {
+	.contactWithUsMob form input[type="text"] {
 		height: 60px;
 		border-radius: 12px;
 		border: 1px solid black;
 		outline: none;
 		color: black;
 		padding: 20px;
-	}
-
-	.contactWithUsMob input[type="submit"] {
-		margin: 0;
-		width: inherit;
 	}
 
 	#head {
@@ -1070,8 +1073,16 @@ form input[type=submit] {
 		height: 850px;
 	}
 
+	.calc > img {
+		align-self: flex-start;
+	}
+
 	.calcBody {
 		min-width: auto;
+	}
+
+	.calcBody > .contact {
+		margin: 44px 0px 44px 4px;
 	}
 
 	.calcHeader {

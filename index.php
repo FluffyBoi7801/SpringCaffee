@@ -18,8 +18,8 @@
 				Оставьте свой телефон и мы перезвоним
 			</p>
 			<form method="post" action="request.php">
-				<input type="text" name="name" placeholder="Ваше имя">
-				<input type="text" name="phone" placeholder="Ваш телефон">
+				<input type="text" name="name" placeholder="Ваше имя" required="true">
+				<input type="text" name="phone" placeholder="Ваш телефон" required="true">
 				<input class="contact + cleanButton" type="submit" value="Отправить">
 			</form>
 	</div>
@@ -379,8 +379,8 @@
 				<p>Оставьте свой номер телефона и в ближайшее<br>время мы вам перезвоним</p>
 			</div>
 			<form method="post" action="request.php">
-				<input type="text" name="name" placeholder="Ваше имя">
-				<input type="text" name="phone" placeholder="Ваш телефон">
+				<input type="text" name="name" placeholder="Ваше имя" required="true">
+				<input type="text" name="phone" placeholder="Ваш телефон" required="true">
 				<input class="contact + cleanButton" type="submit" value="Отправить">
 			</form>
 		</div>
